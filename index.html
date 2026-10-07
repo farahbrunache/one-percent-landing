@@ -296,9 +296,9 @@
 <script>
   (function () {
     var PEOPLE = 50000;
-    var whole = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+    var dollars = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
     var cents = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    var each = function (n) { return (Number.isInteger(n) ? whole : cents).format(n); };
+    var each = function (n) { return (Number.isInteger(n) ? dollars : cents).format(n); };
     var rate = document.getElementById('rate');
     var out = document.getElementById('calcout');
 
@@ -317,7 +317,7 @@
       sum.textContent = each(n) + ' × 50,000 people';
       var figure = document.createElement('span');
       figure.className = 'calc-figure';
-      figure.textContent = whole.format(n * PEOPLE);
+      figure.textContent = dollars.format(n * PEOPLE);
       var note = document.createElement('span');
       note.className = 'calc-note';
       note.textContent = 'Fifty thousand people at ' + each(n) + ' each. Arithmetic, not a forecast, and not a promise.';
