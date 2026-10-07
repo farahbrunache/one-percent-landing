@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<script>
+  (function () {
+    try {
+      var m = document.cookie.match(/(?:^|;\s*)op_theme=(light|dark)/);
+      if (m) document.documentElement.setAttribute('data-theme', m[1]);
+    } catch (e) {  }
+  }());
+</script>
+<title>One Percent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=DM+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="mark">One Percent</span>
+  <span class="topright">
+    <span class="theme" role="group" aria-label="Page colors">
+      <button type="button" data-theme-pick="light" aria-label="Light" title="Light"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+      <button type="button" data-theme-pick="dark" aria-label="Dark" title="Dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+    </span>
+    <a class="topbook" href="https://app.farahbrunache.com/buy">Book · $7</a>
+  </span>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1>What would you charge one person, once?</h1>
+
+    <div class="calc">
+      <label class="calc-ask" for="rate">One person, once</label>
+      <div class="calc-entry">
+        <span class="calc-sign" aria-hidden="true">$</span>
+        <input id="rate" type="number" inputmode="decimal" min="0" step="any" placeholder="0"
+               autocomplete="off" enterkeyhint="done">
+      </div>
+      <div class="calc-try" aria-label="Try a number">
+        <button type="button" data-rate="25">$25</button>
+        <button type="button" data-rate="75">$75</button>
+        <button type="button" data-rate="200">$200</button>
+      </div>
+      <div class="calc-out" id="calcout" role="status">
+        <span class="calc-wait">Type a number. The page does the rest.</span>
+      </div>
+    </div>
+
+    <p class="lede">
+      The arithmetic does something uncomfortable:
+      <a href="https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-one-percent">fifty
+      thousand people at your number</a> is a figure you've never let yourself write down. This is a
+      call of up to half an hour about the number you just produced, and the first customer standing
+      behind it.
+    </p>
+  </section>
+
+  <section class="price">
+    <div class="price-top">
+      <span class="figure">$7</span>
+      <span class="unit">a session.<br>Paid before the call.</span>
+    </div>
+    <ul class="facts">
+      <li><b>30</b><span>minutes at most</span></li>
+      <li><b>8</b><span>questions you can read first</span></li>
+      <li><b>1</b><span>action, with a name</span></li>
+    </ul>
+    <p class="anchor">
+      This call is worth a hundred dollars. It's seven because I'm one of the people I built it
+      for. Seven is still real money when you have none, and it buys the half hour and your next
+      steps in writing — not the work those steps describe. What that work costs is further down
+      this page, before you pay anything.
+    </p>
+    <p class="anchor">No account, no app, nothing to install. A link, seven dollars, and a call in your browser.</p>
+    <a class="btn" href="https://app.farahbrunache.com/buy">Pay for a session</a>
+  </section>
+
+  <section>
+    <h3>What happens</h3>
+    <ol class="steps">
+      <li>
+        <span>
+          <span class="what">Up to thirty minutes, in your browser.</span>
+          <span class="detail">Nothing to install, nothing to dial, no number and no app. You press
+            a button on your own order page and it starts. It ends when the questions are
+            answered, which is often sooner than the half hour.</span>
+        </span>
+      </li>
+      <li>
+        <span>
+          <span class="what">Eight questions, in order.</span>
+          <span class="detail">What you need, what you can do, what you charge, the arithmetic run
+            out loud on your own number, who the first paying customer is, what is standing in the
+            way, and what can be arranged about that one thing.</span>
+        </span>
+      </li>
+      <li>
+        <span>
+          <span class="what">One action, with a name against it.</span>
+          <span class="detail">Not five good ideas. One thing, and who is doing it. A session that
+            ends in a list ends in nothing.</span>
+        </span>
+      </li>
+    </ol>
+    <p class="after-steps">
+      Those eight questions are written down and published in full —
+      <a href="https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/how-to-run-a-one-percent-session">read
+      the method</a> before you pay. Nothing is held back for the session and nobody is screened
+      for fitness. The only question is whether seven dollars is worth answering them and hearing
+      what I make of your answers.
+    </p>
+  </section>
+
+  <section>
+    <h2>A person helps you. The&nbsp;first call is a machine.</h2>
+    <div class="split">
+      <div class="side">
+        <p class="side-label">The call</p>
+        <ul>
+          <li>Automated, and it says so in its first sentence.</li>
+          <li>It says the session is recorded.</li>
+          <li>It gives no advice, promises nothing, and decides nothing about you.</li>
+          <li>It asks, and writes down what you said in your own words.</li>
+        </ul>
+      </div>
+      <div class="side person">
+        <p class="side-label">The person</p>
+        <ul>
+          <li>Reads every word the call takes down.</li>
+          <li>Writes your next steps.</li>
+          <li>That is what the half hour is for.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="after-steps">
+      It will not take an account of what has been done to you. If you start, it says one line
+      and takes you back to the question rather than hanging up — you have paid for the half
+      hour. That is deliberate. This is not therapy and a machine is not the listener.
+    </p>
+  </section>
+
+  <section>
+    <h2>What seven buys, and what it doesn't</h2>
+    <div class="buys">
+      <div class="buy yes">
+        <p class="side-label">Seven buys</p>
+        <ul>
+          <li>The half hour.</li>
+          <li>The next steps that come out of it, written down and yours to keep, whether or not the work goes on after the call.</li>
+        </ul>
+      </div>
+      <div class="buy no">
+        <p class="side-label">Seven doesn't buy</p>
+        <ul>
+          <li>The work those steps describe. That is quoted separately, and you see the number before it starts.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="pull">You're not buying a service for seven dollars. You're finding out, for seven dollars, whether you want the rest.</p>
+
+    <h3 class="sub">The work behind it</h3>
+    <ul class="compare" aria-label="What Skills Economy would cost to have built">
+      <li><b>2 years</b><span>for a firm</span></li>
+      <li><b>5 people</b><span>on the team</span></li>
+      <li><b>$1.5M</b><span>give or take</span></li>
+      <li class="me"><b>1 person</b><span>about a year</span></li>
+    </ul>
+    <div class="note stack gap-s">
+      <p>
+        I build software. The thing I've built is
+        <a href="https://app.chargingthefuture.com">Skills Economy</a>: a free site and phone app where
+        Targeted Individuals list what they can do, find each other, and trade work between
+        themselves. Twenty-eight separate tools sit inside it — a directory, a skills map, a
+        board of work people need doing, a library, a radio station. Anyone can use it, it costs
+        nothing, and the code is public for anyone to check.
+      </p>
+      <p>
+        Having that built for you would take a firm about two years and a team of five: two
+        engineers, a product manager, a designer, and somebody keeping it running. A million and
+        a half dollars, give or take. That's what it would cost to have built. It isn't what it
+        would sell for — it's free and it's not for sale.
+      </p>
+      <p>
+        I built it on my own, in about a year, and sized it for five million people. What's sold
+        here is that same work pointed at one person instead of five million — at you, and at
+        whatever share of those five million you could serve yourself.
+      </p>
+      <p>
+        A plumber doesn't need twenty-eight tools. They need a way to be found and a way to keep
+        track of the people who find them, and that gets built for them, at their own address,
+        and it's theirs.
+      </p>
+      <p>
+        In Skills Economy you find the people you need yourself, in the Directory. Here, somebody
+        does that looking for you: reads what you said on the call, and when there's a person you
+        should be in front of, puts you there.
+      </p>
+      <p>
+        Saying no to more costs you nothing you already had, and Skills Economy stays free and
+        stays there either way.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h3>Before you pay</h3>
+    <dl class="plain">
+      <div>
+        <dt>No refunds.</dt>
+        <dd>The work happens the moment the session runs. If it drops, open your link and start
+          it again — the seven buys one completed session, not one attempt. What you are paying for
+          is stated above and the method is published in full, so there is nothing to find out
+          afterwards.</dd>
+      </div>
+      <div>
+        <dt>The figure is arithmetic, not a forecast.</dt>
+        <dd>Fifty thousand people at your rate is a target with your own number under it. It is not
+          income, and it is not owed to you.</dd>
+      </div>
+      <div>
+        <dt>This is not therapy, and it is not a job board.</dt>
+        <dd>It is one conversation about how you reach fifty thousand people at your own rate:
+          what you charge, who the first person to pay it is, and what is standing in the way.</dd>
+      </div>
+      <div>
+        <dt>Nothing you say is published without you asking for it.</dt>
+        <dd>Notes exist for the work. Publication is a separate question, asked later, and saying
+          no to it costs you nothing.</dd>
+      </div>
+      <div>
+        <dt>The conversation can go on after your next steps.</dt>
+        <dd>A written channel on your order page. You write when you have something to ask, and
+          a person writes back.</dd>
+      </div>
+      <div>
+        <dt>You'll be asked for more, later, only if you want more.</dt>
+        <dd>Seven buys the session and your next steps. Paid work after that is quoted separately
+          and you see the number before it starts. Nothing renews, nothing subscribes you to
+          anything, and nothing can be charged that you have not agreed to — every payment here is
+          one you send yourself.</dd>
+      </div>
+      <div>
+        <dt>No account needed.</dt>
+        <dd>You do not have to be in Skills Economy, or anywhere else. Anyone can book.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="book" id="book">
+    <h2>Book a session</h2>
+    <ul class="ways">
+      <li><b>Wise</b><span>From anywhere, with a bank account.</span></li>
+      <li><b>Amazon gift card</b><span>No bank account. One can be bought with cash in a shop.</span></li>
+    </ul>
+    <a class="btn wide" href="https://app.farahbrunache.com/buy">Pay for a session · $7</a>
+    <p class="after">
+      You are not asked for your name, your email address or where you are. You enter a gift
+      card code and get a link back. When the payment is matched, that link is where your session
+      opens.
+    </p>
+  </section>
+
+  <footer class="stack gap-s">
+    <p>
+      One Percent is run by Farah Brunache. It is paid work and it is separate from
+      <strong>Skills Economy</strong>, which is free, self-service, and open to any Targeted
+      Individual.
+    </p>
+    <p>
+      Skills Economy has a calculator called one percent, and that calculator is where this came
+      from. It sits inside the app, so reaching it means an account and a check first. The
+      <a href="https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/whats-your-one-percent">post
+      about it</a> runs the same arithmetic with nothing to sign into. This gives you the
+      conversation about the figure.
+    </p>
+    <p>
+      Declining this does not disqualify you from Skills Economy in any manner.
+      <a href="https://chargingthefuture.com">chargingthefuture.com</a>
+    </p>
+  </footer>
+
+</main>
+
+<div class="dock" id="dock" hidden>
+  <span><b>$7</b> · one session, paid before the call</span>
+  <a class="btn" href="https://app.farahbrunache.com/buy">Pay for a session</a>
+</div>
+
+<script>
+  (function () {
+    var PEOPLE = 50000;
+    var whole = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+    var cents = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    var each = function (n) { return (Number.isInteger(n) ? whole : cents).format(n); };
+    var rate = document.getElementById('rate');
+    var out = document.getElementById('calcout');
+
+    function show() {
+      var n = Number(rate.value);
+      out.textContent = '';
+      if (!Number.isFinite(n) || n <= 0) {
+        var wait = document.createElement('span');
+        wait.className = 'calc-wait';
+        wait.textContent = 'Type a number. The page does the rest.';
+        out.append(wait);
+        return;
+      }
+      var sum = document.createElement('span');
+      sum.className = 'calc-sum';
+      sum.textContent = each(n) + ' × 50,000 people';
+      var figure = document.createElement('span');
+      figure.className = 'calc-figure';
+      figure.textContent = whole.format(n * PEOPLE);
+      var note = document.createElement('span');
+      note.className = 'calc-note';
+      note.textContent = 'Fifty thousand people at ' + each(n) + ' each. Arithmetic, not a forecast, and not a promise.';
+      out.append(sum, figure, note);
+    }
+
+    rate.addEventListener('input', show);
+    document.querySelectorAll('[data-rate]').forEach(function (b) {
+      b.addEventListener('click', function () { rate.value = b.getAttribute('data-rate'); show(); });
+    });
+    show();
+
+    var dock = document.getElementById('dock');
+    var price = document.querySelector('.price');
+    var book = document.getElementById('book');
+    if ('IntersectionObserver' in window) {
+      var pastPrice = false, atBook = false;
+      var sync = function () { dock.hidden = !(pastPrice && !atBook); };
+      new IntersectionObserver(function (e) { pastPrice = !e[0].isIntersecting && e[0].boundingClientRect.top < 0; sync(); }).observe(price);
+      new IntersectionObserver(function (e) { atBook = e[0].isIntersecting; sync(); }).observe(book);
+    }
+  }());
+</script>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var dark = window.matchMedia('(prefers-color-scheme: dark)');
+    var picks = document.querySelectorAll('[data-theme-pick]');
+    function now() { return root.getAttribute('data-theme') || (dark.matches ? 'dark' : 'light'); }
+    function paint() {
+      picks.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.themePick === now())); });
+    }
+    picks.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var v = b.dataset.themePick;
+        root.setAttribute('data-theme', v);
+        var domain = /(^|\.)farahbrunache\.com$/.test(location.hostname) ? '; Domain=farahbrunache.com' : '';
+        try { document.cookie = 'op_theme=' + v + '; Max-Age=31536000; Path=/; SameSite=Lax' + domain; }
+        catch (e) {  }
+        paint();
+      });
+    });
+    dark.addEventListener('change', paint);
+    paint();
+  }());
+</script>
+</body>
+</html>
