@@ -365,8 +365,6 @@
   }());
 </script>
 <script>
-  // Somebody's link: farahbrunache.com/?from= and a six-character code. Every button to /buy
-  // carries it on, so the order keeps it. This page stores nothing and never says whose it is.
   (function () {
     var from = (new URLSearchParams(location.search).get('from') || '').toUpperCase();
     if (!/^[A-Z0-9]{6}$/.test(from)) return;
