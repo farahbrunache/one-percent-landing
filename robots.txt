@@ -1,0 +1,7 @@
+User-agent: Quora-Bot
+User-agent: QuoraBot
+User-agent: Quora Link Preview
+Disallow: /
+
+User-agent: *
+Allow: /
