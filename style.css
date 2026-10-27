@@ -503,3 +503,21 @@ button.danger { background: transparent; color: var(--ink-soft); border: 1px sol
   word-break: break-all;
   margin-top: 0.35rem;
 }
+
+/* Desktop: the page fills the screen, sections in two columns. */
+@media (min-width: 960px) {
+  .wrap {
+    max-width: none;
+    padding-inline: clamp(2rem, 5vw, 6rem);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(2.5rem, 5vw, 6rem);
+    row-gap: 4rem;
+    align-items: start;
+  }
+  .wrap > section { margin-top: 0; }
+  .wrap > .book, .wrap > footer { grid-column: 1 / -1; }
+  .wrap > footer { margin-top: 0; }
+  .topbar { padding-inline: clamp(2rem, 5vw, 6rem); }
+  h1 { font-size: clamp(3.2rem, 4.6vw, 4.6rem); }
+}
