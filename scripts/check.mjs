@@ -21,8 +21,8 @@ const APP_PATHS = ['/', '/buy', '/claim'];
 
 const HOSTS = [
   'app.farahbrunache.com',
-  'chargingthefuture.com',
-  'app.chargingthefuture.com',
+  'lagatos.com',
+  'app.lagatos.com',
   'chargingthefuture.github.io',
   'fonts.googleapis.com',
   'fonts.gstatic.com',
